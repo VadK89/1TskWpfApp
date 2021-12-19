@@ -1,0 +1,39 @@
+﻿<Window x:Class="_1TskWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1TskWpfApp"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="450" Width="384">
+    <Grid Margin="0,0,2,1">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF635F5F" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="1" HorizontalAlignment="Left" Margin="23,260,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="88,260,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="153,260,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="23,181,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="88,181,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="153,181,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="23,100,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="88,100,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="153,100,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="23,341,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="153,341,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF7119F0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="295,341,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF19C9F0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="230,341,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF1954F0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="295,260,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF1954F0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="230,260,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF991DE0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="230,181,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF991DE0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="00" HorizontalAlignment="Left" Margin="88,341,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF6076B0" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="295,181,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF57E8DB" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="SQRT" HorizontalAlignment="Left" Margin="230,100,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF1A4AEA" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <Button Content="SQR" HorizontalAlignment="Left" Margin="295,100,0,0" VerticalAlignment="Top" Width="60" Height="60" Background="#FF28D6E8" BorderBrush="#FFF7F1F1" Foreground="#FFF7F7F7"/>
+        <TextBlock Margin="23,22,19,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Background="WhiteSmoke" Foreground="#FFF9F7F7"/>
+
+    </Grid>
+</Window>
